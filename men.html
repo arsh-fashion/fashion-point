@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>Fashion Point - Men's Clothes</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: navy;
+}
+
+nav {
+    background: navy;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.banner {
+    background: #172f50;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.categories {
+    background: white;
+    width: 200px;
+    padding: 15px;
+}
+
+.categories h2 {
+    color: navy;
+}
+
+.categories p {
+    font-size: 18px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    flex: 1;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product button {
+    background: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Fashion Point</h1>
+    <p>Dress Better. Live Better.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="men.html">Men's Clothes</a>
+    <a href="women.html">Women Clothes</a>
+    <a href="kids.html">Kids Clothes</a>
+</nav>
+
+<div class="banner">
+    <h1>Men's Clothes</h1>
+    <h2>Style for Every You</h2>
+</div>
+
+<div class="container">
+
+<div class="categories">
+    <h2>Categories</h2>
+    <p>T-Shirts</p>
+    <p>Shirts</p>
+    <p>Hoodies</p>
+    <p>Jackets</p>
+    <p>Jeans</p>
+    <p>Trousers</p>
+</div>
+
+<div class="products">
+
+    <div class="product">
+        <img src="men1.jpg">
+        <h3> T-Shirt</h3>
+        <h3>₹599</h3>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="men2.jpeg">
+        <h3>Casual Shirt</h3>
+        <h3>₹799</h3>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="men3.avif">
+        <h3>Hoodie</h3>
+        <h3>₹999</h3>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="men4.jpeg">
+        <h3>Jacket</h3>
+        <h3>₹1299</h3>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="men5.jpg">
+        <h3>Men's Jeans</h3>
+        <h3>₹1099</h3>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="men6.jpg">
+        <h3>Trousers</h3>
+        <h3>₹899</h3>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+</div>
+
+<footer>
+    <h2>Fashion Point</h2>
+    <p>About Us | Contact Us | Privacy Policy</p>
+    <p>© 2026 Fashion Point. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
